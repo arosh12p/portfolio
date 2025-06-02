@@ -1,37 +1,40 @@
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio di Artosh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-header {
-  background-color: #222;
-  color: #fff;
-  padding: 2rem;
-  text-align: center;
-}
+  <header>
+    <h1>Ciao, sono Artosh</h1>
+    <p>3D artist e sviluppatore web</p>
+  </header>
 
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-}
+  <section class="progetti">
+    <h2>I miei progetti</h2>
 
-section.progetti {
-  padding: 2rem;
-}
+    <div class="progetto">
+      <h3>Progetto 1</h3>
+      <p>Un’animazione 3D realistica creata con Blender e Unreal Engine.</p>
+    </div>
 
-.progetto {
-  background-color: #fff;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
+    <div class="progetto">
+      <h3>Progetto 2</h3>
+      <p>Sito web portfolio per un artista digitale, sviluppato in HTML/CSS.</p>
+    </div>
 
-footer {
-  background-color: #ddd;
-  padding: 1rem;
-  text-align: center;
-}
+    <div class="progetto">
+      <h3>Progetto 3</h3>
+      <p>Esperienza interattiva WebGL realizzata per un evento online.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contattami: <a href="mailto:artosh381@gmail.com">artosh381@gmail.com</a></p>
+  </footer>
+
+</body>
+</html>
